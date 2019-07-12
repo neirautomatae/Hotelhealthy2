@@ -4,28 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Tele">
+    tools:context=".Tele2">
 
     <Button
-        android:id="@+id/btnmunetel1"
-        android:layout_width="65dp"
-        android:layout_height="34dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginLeft="1dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginRight="1dp"
-        android:layout_marginBottom="1dp"
-        android:background="?attr/actionBarItemBackground"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.988"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.063" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btntele1"
+        android:id="@+id/btntele12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button"
@@ -33,39 +23,41 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.355" />
+        app:layout_constraintVertical_bias="0.235" />
 
     <Button
-        android:id="@+id/btntele2"
+        android:id="@+id/btntele22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btntele1"
-        app:layout_constraintVertical_bias="0.100000024" />
+        app:layout_constraintTop_toBottomOf="@+id/btntele12"
+        app:layout_constraintVertical_bias="0.14999998" />
 
     <Button
-        android:id="@+id/btntele3"
+        android:id="@+id/btntele32"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btntele2"
-        app:layout_constraintVertical_bias="0.13" />
+        app:layout_constraintTop_toBottomOf="@+id/btntele22"
+        app:layout_constraintVertical_bias="0.17000002" />
 
     <Button
-        android:id="@+id/btntele4"
+        android:id="@+id/btntele42"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btntele3"
-        app:layout_constraintVertical_bias="0.16000003" />
-
+        app:layout_constraintTop_toBottomOf="@+id/btntele32"
+        app:layout_constraintVertical_bias="0.20999998" />
 </androidx.constraintlayout.widget.ConstraintLayout>
